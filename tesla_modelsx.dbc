@@ -15626,10 +15626,11 @@ BO_ 1006 UI_autopilotControl: 8 GTW
  SG_ UI_blindspotMinSpeed m0 : 11|4@1+ (1,0) [0|0] "" APP,APS
  SG_ UI_blindspotDistance m0 : 15|3@1+ (1,0) [0|0] "" APP,APS
  SG_ UI_blindspotTTC m0 : 18|3@1+ (1,0) [0|0] "" APP,APS
- SG_ UI_donStopEndOfRampBuffer m0 : 21|3@1+ (1,0) [0|0] "" APP,APS
- SG_ UI_donDisableCutin m0 : 24|1@1+ (1,0) [0|0] "" APP,APS
- SG_ UI_smartSetSpeedOffset m0 : 25|6@1+ (1,-30) [-30|33] "%"  VehicleBus
- SG_ UI_smartSetSpeedOffsetType m0 : 31|1@1+ (1,0) [0|1] ""  VehicleBus
+ SG_ UI_donStopEndOfRampBuffer m0 : 21|3@1+ (1,0) [0|0] "" GTW
+ SG_ UI_donDisableCutin m0 : 24|1@1+ (1,0) [0|0] "" GTW
+ SG_ UI_donMinGoreWidthForAbortMap m0 : 25|4@1+ (1,0) [0|0] "" GTW
+ SG_ UI_donAlcProgGoreAbortThres m0 : 29|4@1+ (1,0) [0|0] "" GTW
+ SG_ UI_donMinGoreWidthForAbortNotMap m0 : 33|4@1+ (1,0) [0|0] "" GTW
  SG_ UI_fsdVisualizationEnabled m0 : 37|1@1+ (1,0) [0|1] "" APP
  SG_ UI_fsdStopsControlEnabled m0 : 38|1@1+ (1,0) [0|1] "" APP
  SG_ UI_homelinkNearby m0 : 45|1@1+ (1,0) [0|0] "" APP,APS
